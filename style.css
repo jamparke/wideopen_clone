@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background: rgb(238, 238, 238);
+  color: rgb(92, 109, 113);
+  font-family: "open sans", sans-serif;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  position: relative;
+}
+p {
+  font-size: 150%;
+  text-align: justify;
+  padding: 2%;
+  margin: auto;
+
+}
+
+.mast {
+
+  background-image: url(img/wot-masthead-dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 520px;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 120px;
+  display: inline-block;
+}
+.header-main {
+  padding: 16px 0 0 16px;
+  line-height: 20px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.logo {
+  width: 155px;
+  height: 30px;
+  background-image: url(img/wot-logo-whitex2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+}
+
+  /*---Navigation startin--*/
+
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  font-size: 50px;
+  padding: 10px;
+  visibility: hidden;
+  float: right;
+}
+.navbar {
+float: right;
+font-size: 16px;
+font-weight: 500;
+margin-right: 20px;
+}
+ul {
+  list-style-type: none;
+}
+nav ul li {
+  font-size: 100%;
+  padding: 10px;
+  display: inline;
+  margin: auto;
+  position: relative;
+
+}
+nav ul li a {
+  flex-flow: row-reverse;
+  float: right;
+  color: rgb(238, 238, 238);
+  text-decoration: none;
+  padding: 10px;
+}
+.banner {
+position: relative;
+height: 530px;
+
+}
+/*-----Media starts here---*/
+/*@media screen and (max-width 768px) {
+
+.menu-icon {
+  visibility: visible;
+}  */
+
+@media all and (min-width: 1024px)  { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) { }
