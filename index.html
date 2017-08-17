@@ -1,50 +1,69 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Untitled Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link type="text/css" href="style.css" rel="stylesheet">
-</head>
-<body>
-    <nav>
-        <div class="nav vertical-center">
-           <a href="#"><img src="wot-logo-whitex2.svg" class="logo vertical-center"></a>
-           <div class="float-right margin-right">
-                <ul class="caps">
-                    <li class="inline-block"><a href="#" class="nav-link">Services</a></li>
-                    <li class="inline-block"><a href="#" class="nav-link">Company</a></li>
-                    <li class="inline-block"><a href="#" class="nav-link">Portfolio</a></li>
-                    <li class="inline-block"><a href="#" class="nav-link">Careers</a></li>
-                    <li class="inline-block"><a href="#" class="nav-link">Blog</a></li>
-                    <li class="inline-block"><a href="#" class="nav-link">Contact</a></li>
-                </ul>
-            </div>
-      </div>
-    </nav>
-    <div class="top-background">
-        <div class="container white-text oswald mid-center">
-            <p class='caps'>your digital</p>
-            <p class='caps'>workshop</p>
-            <div class='building-text'>
-                <hr size="10px" color="white" width="100px" class="float-left">
-                Building Business <span style="color:#fe7f2c">Solutions</span> & Bright <span style="color:#bdd51d">Ideas</span>
-                <hr size="10px" color="white" width="100px" class="float-right">
-            </div>
-            <button><strong>Learn More</strong></button>
-        </div>
-    </div>
-    
-    <div class="how-it-works">
-        <p class="open-sans">Wide Open Technologies brings enterprise-level technology
-to small and mid-sized companies – building the digital technology that
-solves unique problems, works better and turns ideas into functional reality.</p>
-       <img src="Screen Shot 2017-07-06 at 10.29.53 PM.png">
-       <p class="how-works oswald">here's how it <span style="color: #bdd436"><strong>works</strong></span></p>
-    </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Wide Open Tech - Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald" rel="stylesheet">
 
-</body>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav"> <!-- hamburger html -->
+          <label for="menu-toggle"><a href="/"></a></label>
+          <input type="checkbox" id="menu-toggle" />
+
+            <ul id="menu">
+              <li><a href="http://wideopentech.com/services">Services</a></li>
+              <li><a href="http://wideopentech.com/company">Company</a></li>
+              <li><a href="http://wideopentech.com/portfolio">Portfolio</a></li>
+              <li><a href="http://wideopentech.com/careers">Careers</a></li>
+              <li><a href="http://wideopentech.com/blog">Blog</a></li>
+              <li><a href="http://wideopentech.com/contact">Contact</a></li>
+            </ul>
+        </div>
+        <p class="nav-links">
+          <a href="http://wideopentech.com"><img class="logo-lg" src="wideopentech-logo.png" /></a>
+          <a href="http://wideopentech.com"><img class="logo-sm" src="wot-mark.svg" /></a>
+          <span class="top-bar">
+          <a class ="link-lg" href="http://wideopentech.com/services">Services</a>
+          <a class ="link-lg" href="http://wideopentech.com/company">Company</a>
+          <a class ="link-lg" href="http://wideopentech.com/portfolio">Portfolio</a>
+          <a class ="link-lg" href="http://wideopentech.com/careers">Careers</a>
+          <a class ="link-lg" href="http://wideopentech.com/blog">Blog</a>
+          <a class ="link-lg" href="http://wideopentech.com/contact">Contact</a>
+        </span>
+        </p>
+      </nav>
+      <div class="center-piece">
+        <p class ="top-piece">
+            Your Digital
+        </p>
+        <p class="core">
+          <u>W</u>ORKSHO<u>P</u>
+        </p>
+        <p class="sub">
+          Building Business <span class="orange">Solutions</span> & Bright <span class = "green">Ideas</span>
+        </p>
+          <button type="button"><b>Learn More</b></button>
+      </div>
+
+    </header>
+
+    <main>
+      <p class="main-text">
+        Wide Open Technologies brings enterprise-level technology
+to small and mid-sized companies – building the digital technology that
+solves unique problems, works better and turns ideas into functional reality.
+      </p>
+      <img class="sprite" src="WOT_sprite.png" />
+      <p class ="main2">
+        HERE'S HOW IT <span class="green">WORKS</span>
+      </p>
+    </main>
+
+    <footer>
+    </footer>
+  </body>
 </html>
